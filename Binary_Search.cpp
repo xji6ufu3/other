@@ -7,7 +7,7 @@ void Binary_Search(int data[],int length,int search){
 		mid = (left+right)/2;
 		if(data[mid]==search){
 			cout<<"資料 "<<search<<" 在第 "<<mid+1<<" 項\n";
-			return;
+			return;	
 		}
 		else if(data[mid]<search) left = mid + 1;
 		else if(data[mid]>search) right = mid - 1; 
